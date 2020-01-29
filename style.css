@@ -1,0 +1,80 @@
+* { 
+    background-image: linear-gradient(315deg, #21d190, #d65bca 74%);
+    background-color: #21d190;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#SocialMedia {
+    margin-top: 0;
+    padding-top: 0;
+}
+#myself {
+    height: 500px;
+    width: 300px;
+    margin-top: 0;
+}
+#tina {
+    height: 500px;
+    width: 300px;
+    margin-top: 0;
+}
+.h1 {
+    text-align: left;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 130px;
+    margin-bottom: 0;
+    margin-left: 250px;
+    font-weight: bolder;
+}
+#info {
+    font-size: 40px;
+    color: rgb(209, 4, 158);
+    margin: 40px;
+    font-family: fantasy;
+    margin-top: 120px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 70px;
+}
+ul > li > img {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+ul > li > a {
+   margin: 30px;
+}
+#nav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.5s;
+    padding: 25px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+}
+#nav a:hover {
+    left: 0;
+}
+#about {
+    top: 210px;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    background-size: cover;
+}
+#home {
+    top: 110px;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    background-size: cover;
+}
